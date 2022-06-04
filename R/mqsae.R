@@ -542,7 +542,7 @@ mq=function(y,x,regioncode.s,x.outs,regioncode.r,m,p,SE=0,ydir=0,tol.value=0.000
          #mse.naive.nirsampel = median(mse)
     )
   }else{
-    list(mq = MQNAIVE,
+    list(mq.naive = MQNAIVE,
          area.tersampel = uar,
          mse.tersampel = mse)
   }
