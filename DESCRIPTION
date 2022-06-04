@@ -1,0 +1,13 @@
+Package: mqsae
+Type: Package
+Title: M-Quantile SAE
+Version: 0.0.1
+Author: Fadila Ahmad and Ika Yuni Wulansari
+Maintainer: Fadila Ahmad <fadilaahmad24@gmail.com>
+Description: An alternative method for small area estimation that robust for data with outlier and doesn't meet normal distribution.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
