@@ -13,19 +13,19 @@ mq(y, x, regioncode.s, x.outs, regioncode.r, m, p, SE = 0, ydir = 0, tol.value =
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{y}{
-  Response variable for sampled unit.
+  Response variable for observed unit.
 }
   \item{x}{
-  Auxiliary variable for sampled unit.
+  Auxiliary variable for observed unit.
 }
   \item{regioncode.s}{
-  Region code for sampled unit.
+  Region code for observed unit.
 }
   \item{x.outs}{
-  Auxiliary variable for nonsampled unit.
+  Auxiliary variable for unobserved unit.
 }
   \item{regioncode.r}{
-  Region code for nonsampled unit.
+  Region code for unobserved unit.
 }
   \item{m}{
   Total area (area level)
@@ -34,10 +34,10 @@ mq(y, x, regioncode.s, x.outs, regioncode.r, m, p, SE = 0, ydir = 0, tol.value =
   Size for x+1 (include intercept).
 }
   \item{SE}{
-  It is optional. If your data have a different level between sampled data and nonsampled data then you fill SE with standard error values for sampled unit.
+  It is optional. If your data have a different level between observed unit and unobserved unit then you fill SE with standard error values for observed unit.
 }
   \item{ydir}{
-  It is optional. If your data have a different level between sampled data and nonsampled data then you fill ydir with response variable values for samled unit.
+  It is optional. If your data have a different level between observed unit and unobserved unit then you fill ydir with response variable values for observed unit.
   }
   \item{tol.value}{
   Covergence tolerance limit for M-Quantile model. Default 0,0001.
